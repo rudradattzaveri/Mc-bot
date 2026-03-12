@@ -1,0 +1,20 @@
+{
+  "name": "mc-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mineflayer": "^4.20.0"
+  }
+}
+const mineflayer = require('mineflayer');
+
+function createBot() {
+    const bot = mineflayer.createBot({
+        host: 'Rud364.play.hosting', 
+        port: 19132,               
+        username: 'GitHub_Bot_247',
+        version: false
+    });
+
+    bot.on('spawn', () => console.log
+   
